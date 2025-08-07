@@ -118,8 +118,9 @@ All colors MUST be HSL.
   }
 
   .glass {
-    @apply backdrop-blur-lg border border-white/10;
+    @apply backdrop-blur-xl border border-white/10;
     background: linear-gradient(135deg, hsl(var(--card) / 0.8), hsl(var(--card) / 0.4));
+    box-shadow: 0 8px 32px hsl(220 30% 3% / 0.3);
   }
 
   .glow {
@@ -127,10 +128,12 @@ All colors MUST be HSL.
   }
 
   .hero-gradient {
-    background: var(--gradient-primary);
+    background: linear-gradient(135deg, hsl(240 100% 70%), hsl(280 100% 70%), hsl(320 100% 70%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    background-size: 200% 200%;
+    animation: gradient-shift 3s ease infinite;
   }
 
   .animate-typing {
