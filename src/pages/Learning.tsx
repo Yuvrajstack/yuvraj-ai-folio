@@ -7,14 +7,14 @@ import { BookOpen, Code, Shield, Brain, Github, Video, FileText } from "lucide-r
 const Learning = () => {
   const learningTopics = [
     {
-      title: "Data Structures & Algorithms",
-      icon: Code,
-      progress: 75,
-      description: "Mastering fundamental algorithms and data structures for efficient problem solving.",
+      title: "SWOC Analysis",
+      icon: goal,
+      progress: 100,
+      description: "learn about SWOC(Strengths, Weaknesses, Opportunities, Challenges) analysis to understand academic growth areas with a positive mindset",
       resources: [
-        { type: "github", title: "DSA Practice Repository", url: "#" },
-        { type: "video", title: "Algorithm Visualizations", url: "#" },
-        { type: "notes", title: "Complexity Analysis Notes", url: "#" }
+        { type: "Assignments", title: "Assignment", url: "#" },
+        { type: "Vedios", title: "Vedio", url: "#" },
+        { type: "Notes", title: "My Notes", url: "#" }
       ],
       status: "Active"
     },
